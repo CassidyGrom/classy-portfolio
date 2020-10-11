@@ -6,29 +6,48 @@
     padding: 15rem 0;
     background: linear-gradient(
             to bottom,
-            #{fade-out($black, 0.7)} 0%,
-            #{fade-out($black, 0.3)} 75%,
-            $black 100%
+            #{fade-out($white, 0.7)} 0%,
+            #{fade-out($white, 0.3)} 75%,
+            $white 100%
         ),
-        url("../assets/img/new-bg2.jpg");
+        url("../assets/img/bg-4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
     h1 {
-        font-family: $font-family-special;
+        font-family: "komu-b", sans-serif;
         font-weight: 400;
         font-style: normal;
         font-size: 2.5rem;
         line-height: 2.5rem;
-        letter-spacing: 0.8rem;
-        background: linear-gradient(fade-out($coral, 0.1), fade-out($coral, 1));
+        // letter-spacing: 0.8rem;
+        background: $primary;
+        // background: linear-gradient(fade-out($coral, 0.1), fade-out($coral, 1));
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        letter-spacing:.2rem;
     }
     h2 {
         max-width: 20rem;
         font-size: 1rem;
+    }
+    h4{
+        font-family: "komu-b", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color:$primary;
+        font-size: 2.3rem;
+        line-height: 2.3rem;
+        padding-bottom: 1rem;
+    }
+    .btn-color, .btn{
+        color:$primary;
+        font-weight:600;
+        font-family: $font-family-base!important;
+    }
+    .btn{
+        font-family: $font-family-base;  
     }
     @include media-breakpoint-up(md) {
         h1 {
