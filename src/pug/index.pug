@@ -27,16 +27,14 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container
-                a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
+                a.navbar-brand.js-scroll-trigger(href='#page-top') CG
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ml-auto
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') About
-                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#resume') Resume
+                            a.nav-link.js-scroll-trigger(href='#about') Resume
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#projects') Projects
                         li.nav-item
@@ -48,8 +46,8 @@ html(lang='en')
                 .mx-auto.text-center
                     h4.mx-auto.my-0 Hello, I'm
                     h1.mx-auto.my-0 Cassidy Grom
-                    h2.mx-auto.mt-2.mb-5 A reporter and designer with a passion to make truth accessible. 
-                    a.btn.btn-primary Let's connect
+                    h2.mx-auto.mt-2.mb-5.btn-color A reporter and designer with a passion to make truth accessible. 
+                    a.btn.btn-primary.js-scroll-trigger(href='#about') Let's connect
 
         // About
         section#about.about-section.text-center
@@ -62,16 +60,7 @@ html(lang='en')
                             a(href='https://startbootstrap.com/template-overviews/grayscale/') the preview page
                             | . The theme is open source, and you can use it for any purpose, personal or commercial.
                 img.img-fluid(src='assets/img/ipad.png', alt='')
-         // Resume
-        section#resume.resume-section
-            .container
-                .row
-                    .col-md-10.col-lg-8.mx-auto.text-center
-                        i.far.fa-paper-plane.fa-2x.mb-2.text-white
-                        h2.text-white.mb-5 Subscribe to receive updates!
-                        form.form-inline.d-flex
-                            input#inputEmail.form-control.flex-fill.mr-0.mr-sm-2.mb-3.mb-sm-0(type='email', placeholder='Enter email address...')
-                            button.btn.btn-primary.mx-auto(type='submit') Subscribe
+
         // Projects
         section#projects.projects-section.bg-light
             .container

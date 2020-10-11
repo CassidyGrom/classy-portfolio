@@ -10015,9 +10015,14 @@ body {
   outline: none;
 }
 #mainNav .navbar-brand {
-  color: #000000;
+  color: #022873 !important;
   font-weight: 700;
   padding: 0.9rem 0;
+  font-family: "komu-b", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
 }
 #mainNav .navbar-nav .nav-item {
   color: #022873;

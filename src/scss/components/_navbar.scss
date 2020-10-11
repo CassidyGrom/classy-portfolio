@@ -11,9 +11,14 @@
         }
     }
     .navbar-brand {
-        color: $black;
+        color: $primary!important;
         font-weight: 700;
         padding: 0.9rem 0;
+        font-family: "komu-b", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5em;
+        letter-spacing: .05em;
     }
     .navbar-nav {
         .nav-item {
