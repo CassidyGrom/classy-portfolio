@@ -10019,14 +10019,16 @@ body {
   font-weight: 700;
   padding: 0.9rem 0;
 }
+#mainNav .navbar-nav .nav-item {
+  color: #022873;
+  weight: 800;
+}
 #mainNav .navbar-nav .nav-item:hover {
-  color: fade(#d9e0e6, 80%);
+  color: #022873;
   outline: none;
-  background-color: transparent;
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
-  background-color: transparent;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10043,13 +10045,14 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(217, 224, 230, 0.5);
+    color: rgba(2, 40, 115, 0.5);
+    font-weight: 600;
   }
   #mainNav .nav-link:hover {
-    color: rgba(217, 224, 230, 0.75);
+    color: rgba(2, 40, 115, 0.75);
   }
   #mainNav .nav-link:active {
-    color: #d9e0e6;
+    color: #022873;
   }
   #mainNav.navbar-shrink {
     background-color: #d9e0e6;
@@ -10058,7 +10061,8 @@ body {
     color: #000000;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #000000;
+    color: #022873;
+    weight: 600;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -10078,11 +10082,18 @@ body {
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "cooper-black-std", serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: white;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+.btn:focus {
+  color: #022873;
+}
+.btn:hover {
+  color: #022873;
 }
 
 .masthead {
@@ -10111,7 +10122,8 @@ body {
 }
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.8rem;
+  color: #022873 !important;
 }
 .masthead h4 {
   font-family: "komu-b", sans-serif;
@@ -10122,9 +10134,13 @@ body {
   line-height: 2.3rem;
   padding-bottom: 1rem;
 }
-.masthead .btn-color {
-  color: #022873;
+.masthead .btn-color, .masthead .btn {
+  color: white;
   font-weight: 600;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.masthead .btn {
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 @media (min-width: 768px) {
   .masthead h1 {
@@ -10195,7 +10211,7 @@ body {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: "cooper-black-std", serif;
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -10211,7 +10227,7 @@ body {
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: "cooper-black-std", serif;
+  font-family: "arial", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }

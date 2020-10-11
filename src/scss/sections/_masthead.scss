@@ -30,7 +30,8 @@
     }
     h2 {
         max-width: 20rem;
-        font-size: 1rem;
+        font-size: 1.8rem;
+        color: $primary!important;
     }
     h4{
         font-family: "komu-b", sans-serif;
@@ -42,7 +43,7 @@
         padding-bottom: 1rem;
     }
     .btn-color, .btn{
-        color:$primary;
+        color:white;
         font-weight:600;
         font-family: $font-family-base!important;
     }
