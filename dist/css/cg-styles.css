@@ -1,0 +1,8 @@
+.tag{
+    display: inline-flex;
+    font-size:.7em;
+    color: rgba(0, 0, 0, 0.5) !important;
+    background-color: #d9e0e6;
+    padding: .2em;
+    margin-top: .5em;
+}
