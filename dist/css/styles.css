@@ -10171,7 +10171,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #d9e0e6 0%, rgba(73, 99, 112, 0.9) 75%, rgba(73, 99, 112, 0.8) 100%);
+  /* background: linear-gradient(to bottom, #d9e0e6 0%, rgba(73, 99, 112, 0.9) 75%, rgba(73, 99, 112, 0.8) 100%); */
 }
 .about-section p {
   margin-bottom: 5rem;
