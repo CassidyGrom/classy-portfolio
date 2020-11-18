@@ -3,11 +3,14 @@ h5{
     color:#022873;
 }
 
+ul{
+    list-style:none!important;
+}
 
-/* a:hover{
-    text-decoration:none;
-} */
+#spc.card-img-top{
+    min-height:7em;
 
+}
 .tag{
     display: inline-flex;
     font-size:.7em;
@@ -15,6 +18,8 @@ h5{
     background-color: #d9e0e6;
     padding: .2em;
     margin-top: .5em;
+    padding-left: .3em;
+    padding-right: .3em;
 }
 
 .pub-date{
@@ -35,9 +40,38 @@ h5{
     border-top: 6px solid #022873;
     border-bottom: 6px solid #022873;
     color:black 50%;
+    min-height:29em;
 }
 
 .card.img{
     border-radius:6%;
+    height: 9em;
+    width: auto;
+    height: 9em;
+    object-fit: cover;
 }
 
+.card-img-top{
+    min-height:9em;
+    object-fit:cover;
+}
+
+.margin-cg{
+    margin-left:4em;
+}
+
+@media only screen and (max-width: 1280px) {
+    .margin-cg{
+        margin-left:4em;
+        margin-top: 2em;
+    }
+    .mt-5{
+        margin-top: .5em!important;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
+    .margin-cg{
+        margin-left:0em;
+    }
+  }
