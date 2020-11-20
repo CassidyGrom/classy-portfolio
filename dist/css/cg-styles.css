@@ -11,6 +11,28 @@ ul{
     min-height:7em;
 
 }
+
+.about-section{
+    padding-top:3rem;
+}
+
+.btn.a{
+    color:white;
+}
+.btn:hover{
+    color:white;
+    text-decoration:underline;
+}
+
+.navbar-brand {
+    font-size:2.2em!important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
 .tag{
     display: inline-flex;
     font-size:.7em;
@@ -43,6 +65,7 @@ ul{
     min-height:29em;
 }
 
+
 .card.img{
     border-radius:6%;
     height: 9em;
@@ -60,8 +83,8 @@ ul{
     margin-left:4em;
 }
 
-#mainNav.navbar-brand{
-    font-size:2.2em;
+.contact-section .card {
+    min-height: 0px;
 }
 
 @media only screen and (max-width: 1280px) {
@@ -78,6 +101,15 @@ ul{
     .margin-cg{
         margin-left:8em;
     }
+    .masthead h2{
+        font-size: 1.1rem;
+    }
+    .masthead h1{
+        font-size: 4rem;
+        padding-top: .2em;
+        margin-bottom: .5em!important;
+    }
+    
   }
 
 
